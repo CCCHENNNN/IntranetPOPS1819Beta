@@ -8,6 +8,8 @@ namespace IntranetPOPS1819.Models
 {
     public class BddContext : DbContext
     {
-        //TODO
+        public DbSet<Mission> Missions { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<Collaborateurs> Collaborateurs { get; set; }
     }
 }

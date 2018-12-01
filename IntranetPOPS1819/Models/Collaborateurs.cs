@@ -8,9 +8,9 @@ namespace IntranetPOPS1819.Models
     public class Collaborateurs
     {
         public int Id { get; set; }
-        public String Nom { get; set; }
-        public String Prenom { get; set; }
-        public String Mail { get; set; }
+        public string Nom { get; set; }
+        public string Prenom { get; set; }
+        public string Mail { get; set; }
         public Service Service { get; set; }
         public List<Mission> Missions { get; set; }
 
@@ -18,6 +18,5 @@ namespace IntranetPOPS1819.Models
 
         //Garder ? TODO
         public bool Admin { get; set; }
-
     }
 }
